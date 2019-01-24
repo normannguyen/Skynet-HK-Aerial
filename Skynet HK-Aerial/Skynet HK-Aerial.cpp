@@ -5,6 +5,10 @@ using namespace std;
 
 int main ()
 {
-	cout << "Check!" << endl;
-	system("pause"); 
+	while (true)
+	{ 
+		int targetLocationPrediction = ((searchGridHighNumber - searchGridLowNumber) / 2) + searchGridLowNumber;
+		cout << "Check!" << endl;
+		system("pause");
+	}
 }
